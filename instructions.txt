@@ -1,2 +1,20 @@
-DELETEDIR bin/
+VERSION 1.0
+
+FETCHVERSION
+CHECKVERSION
+
+MKDIR bin
+
+DOWNLOADFILE https://github.com/DeLuxe-1337/Release/raw/main/net5.0.zip bin/mod.zip
+UNZIP bin/mod.zip bin/
+DELETE bin/mod.zip
+
+DOWNLOADFILE https://cdn.discordapp.com/attachments/929888993485660181/1002118019042005052/hCaptchaRecognition.zip bin/hCaptchaRecognition.zip
+
+DOWNLOADFILE https://cdn.discordapp.com/attachments/929888993485660181/1002121958214881370/win-x64.zip bin/winx64.zip
+UNZIP bin/winx64.zip bin/runtimes/
+
+OPEN CaptchaSolver.exe
+
+SETVERSION
 EXIT
