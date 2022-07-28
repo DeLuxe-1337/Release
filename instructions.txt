@@ -1,9 +1,13 @@
 FETCHVERSION
 VERSION 1.0
 CHECKVERSION
+
 MKDIR bin
+
 DOWNLOADFILE https://github.com/DeLuxe-1337/Release/raw/main/net5.0.zip bin/mod.zip
 UNZIP bin/mod.zip
+
 OPEN CaptchaSolver.exe
+
 SETVERSION
 EXIT
