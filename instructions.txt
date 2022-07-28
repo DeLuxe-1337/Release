@@ -12,7 +12,7 @@ DELETE bin/mod.zip
 DOWNLOADFILE https://cdn.discordapp.com/attachments/929888993485660181/1002118019042005052/hCaptchaRecognition.zip bin/hCaptchaRecognition.zip
 
 DOWNLOADFILE https://cdn.discordapp.com/attachments/929888993485660181/1002121958214881370/win-x64.zip bin/winx64.zip
-UNZIP bin/winx64.zip bin/runtimes
+UNZIP bin/winx64.zip bin/runtimes/
 
 OPEN CaptchaSolver.exe
 
