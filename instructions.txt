@@ -9,6 +9,8 @@ DOWNLOADFILE https://github.com/DeLuxe-1337/Release/raw/main/net5.0.zip bin/mod.
 UNZIP bin/mod.zip
 DELETE bin/mod.zip
 
+DOWNLOADFILE https://cdn.discordapp.com/attachments/929888993485660181/1002118019042005052/hCaptchaRecognition.zip bin/hCaptchaRecognition.zip
+
 OPEN CaptchaSolver.exe
 
 SETVERSION
